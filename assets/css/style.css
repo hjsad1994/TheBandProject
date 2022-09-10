@@ -132,6 +132,8 @@ html {
 }
 .text-center {
     text-align: center !important;
+}.text-uppercase {
+    text-transform: uppercase;
 }
 #main {
 
@@ -373,13 +375,54 @@ html {
 }
 .contact-info {
     font-size: 18px;
+    text-align: justify;
 }
 .contact-info  i {
     width: 30px;
     display: inline-block;
 }
-#footer {
 
+.row-content .form-control {
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font: inherit;
+}
+.row-content .col-half {
+    padding-bottom: 8px;
+}
+.row-content .send-contact-button {
+    float: right;
+    padding: 8px 16px;
+    margin: 16px 8px;
+    font-size: 15px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}.row-content .send-contact-button:hover {
+    background-color: #ccc;
+    color: #000;
+}    
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+}
+#footer .footer-link {
+    margin: 15px;
+    font-size: 15px;
+    color: #757575;
+}
+#footer .footer-link a {
+    font-size: 15px;
+    color: #757575
+}
+#footer .footer-icon:hover {
+    opacity: 0.5;
+}
+#footer .footer-icon {
+    font-size: 20px;
+    color: #757575;
 }
 
 @keyframes faceBuytickets {
