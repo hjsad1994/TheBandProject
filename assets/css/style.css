@@ -135,6 +135,9 @@ html {
 }.text-uppercase {
     text-transform: uppercase;
 }
+.pull-right {
+    float: right !important;
+}
 #main {
 
 }
@@ -333,6 +336,10 @@ html {
     width: 100%;
     display: block;
 }
+.map-img {
+    width: 100%;
+    display: block;
+}
 .place-img:hover {
     opacity: 0.6;
 }
@@ -359,14 +366,15 @@ html {
 .place-description {
     padding: 15px 0;
 }
-.place-buy-btn {
+.btn {
     color: #fff;
     background-color: #000;
     cursor: pointer;
     text-decoration: none;
     padding: 10.6px 15.5px;
+    border: none;
 }
-.place-buy-btn:hover {
+.btn:hover {
     background-color: #ccc;
     color: #000;
 }
@@ -391,19 +399,11 @@ html {
 .row-content .col-half {
     padding-bottom: 8px;
 }
-.row-content .send-contact-button {
-    float: right;
+.row-content .btn {
     padding: 8px 16px;
     margin: 16px 8px;
     font-size: 15px;
-    background-color: #000;
-    color: #fff;
-    cursor: pointer;
-    border: none;
-}.row-content .send-contact-button:hover {
-    background-color: #ccc;
-    color: #000;
-}    
+}     
 #footer {
     padding: 64px 16px;
     text-align: center;
@@ -415,14 +415,17 @@ html {
 }
 #footer .footer-link a {
     font-size: 15px;
-    color: #757575
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
 }
-#footer .footer-icon:hover {
+.footer-icon a:hover {
     opacity: 0.5;
 }
-#footer .footer-icon {
+.footer-icon a {
     font-size: 20px;
-    color: #757575;
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+
 }
 
 @keyframes faceBuytickets {
